@@ -1,0 +1,14 @@
+<!-- not only uppercase interpolation after the pipe character, concurrency amounts
+datas, and other display data could be displayed in proper format using built-in pipes -->
+<ul class="tasks">
+    <li *ngFor="let task of tasks">
+        <a routerLink="/detail/{{task.id}}">
+            <span class="priority">{{task.id}} </span>
+            <span class="summary">{{task.summary}}</span>
+        </a>
+
+        
+    </li>
+</ul>
+
+

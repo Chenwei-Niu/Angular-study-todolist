@@ -1,6 +1,28 @@
-# PrioritisedToDoList
+# Prioritised To Do List
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+
+
+
+This project was written by Chenwei Niu following the official document of Angular, which covering
+
+project initialization, Angular modules, Angular component, Angular service and Routing.
+
+Here are several screenshots from the running application.
+
+<img src="./src/assets/readme1.png" alt= "" width="300px" >
+------------
+
+<img src="./src/assets/readme2.png" alt= "" width="500px" >
+----------
+
+<img src="./src/assets/readme3.png" alt= "" width="300px" >
+
+
+
+
+
+
 
 ## Development server
 

@@ -1,0 +1,8 @@
+<div *ngIf="messageService.messages.length">    <!-- *ngIf displays messages when there exists at least one message -->
+
+    <h2>Messages</h2>
+    <button type="button" class="clear"
+            (click)="messageService.clear()">Clear messages</button>     <!-- 点击invoke message服务的clear-->
+    <div *ngFor='let message of messageService.messages'> {{message}} </div>
+    
+  </div>

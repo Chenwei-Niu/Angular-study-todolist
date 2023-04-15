@@ -1,0 +1,15 @@
+<div *ngIf="task">
+    <h2>{{task.summary | uppercase}} Details</h2>
+    <div>Priority: {{task.id}}</div>
+    <div>
+      <label for="task-summary">Task summary: </label>
+      <input id="task-summary" [(ngModel)]="task.summary" placeholder="summary">
+
+    </div>
+    <div>
+
+        <div><label for="task-details">Task details: </label></div>
+        <textarea id="task-details" [(ngModel)]="task.details" placeholder="details"></textarea> <!--  ngModel should be imported in app.module.ts-->
+      </div>
+</div>
+<button type="button" (click)="goBack()">go back</button>
